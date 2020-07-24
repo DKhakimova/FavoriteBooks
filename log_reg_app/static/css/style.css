@@ -1,0 +1,60 @@
+#wrapper{
+    width: 900px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.log_reg{
+    flex: none;
+    flex-basis: 50%;
+}
+
+h1{
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+.block, .submit{
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+}
+
+.submit{
+    margin-left: 140px;
+}
+
+input{
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+#success{
+    margin: 20px;
+    display: inline-block;
+}
+
+a{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.success{
+    color: green;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 115px;
+}
+
+.error{
+    color: green;
+}
